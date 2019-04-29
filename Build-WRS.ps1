@@ -29,7 +29,7 @@
     - 1.0: Initial Release
 
 .LINK
-  https://z-nerd.com/BLAHBLAHBLAH
+  https://z-nerd.com/HAVENT_POSTED_THIS_BLOG_YET
 
 .EXAMPLE
   .\Build-WRS.ps1 -FileLogging -LogFilePath c:\Windows\Temp\WRS.log -ImagePath D:\WRS\_OS -ImageIndex 3 -WRSPath D:\WRS -Verbose
