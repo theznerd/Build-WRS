@@ -29,7 +29,7 @@
     - 1.0: Initial Release
 
 .LINK
-  https://z-nerd.com/BLAHBLAHBLAH
+  https://z-nerd.com/blog/2019/04/29-windows-repair-source/
 
 .EXAMPLE
   .\Build-WRS.ps1 -FileLogging -LogFilePath c:\Windows\Temp\WRS.log -ImagePath D:\WRS\_OS -ImageIndex 3 -WRSPath D:\WRS -Verbose
