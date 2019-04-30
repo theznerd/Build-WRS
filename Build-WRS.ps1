@@ -29,7 +29,7 @@
     - 1.0: Initial Release
 
 .LINK
-  https://z-nerd.com/blog/2019/04/29-windows-repair-source/
+  https://z-nerd.com/BLAHBLAHBLAH
 
 .EXAMPLE
   .\Build-WRS.ps1 -FileLogging -LogFilePath c:\Windows\Temp\WRS.log -ImagePath D:\WRS\_OS -ImageIndex 3 -WRSPath D:\WRS -Verbose
@@ -355,7 +355,7 @@ foreach($os in $osa)
     {
         $RTMComplete = $true
         # Base Updates
-        if(($os.History.Updates.Update | Where-Object {$_.KB -eq "RTM"}).Count -lt 1)
+        if(($os.History.Updates.Update | Where-Object {$_.KB -eq "RTM"}) -eq $null)
         {
             # Append RTM Version
             $u = $os.History.CreateElement("Update")
